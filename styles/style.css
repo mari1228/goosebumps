@@ -7,4 +7,125 @@
 body {
   background: white;
   color: black;
+  margin: 0;
+  padding: 0;
 }
+
+img {
+  width: 100%;
+}
+
+.page{
+
+  width: 100%;
+  height: 100vh;
+  background-color: red;
+  position: relative;
+  overflow: hidden;
+
+
+}
+
+.background {
+
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+
+.leftbox{
+
+  width: 40%;
+  height: 100%;
+  float: left;
+  background-color: white;
+
+
+}
+
+.leftbox-top{
+
+  width:100%;
+  height:50vh;
+  background-color: yellow;
+  background-size:cover!important;
+  background: url("../assets/fruitblack-red.gif");
+}
+
+.character-container{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  pointer-events: none;
+}
+
+.character-one{
+  width: 50%;
+  height: 80vh;
+  margin: 0 auto;
+}
+
+.leftbox-top-gif{
+  background: url("../assets/fruitblack-red.gif");
+  background-size:cover;
+}
+
+.leftbox-top-still{
+  background: url("../assets/grapefruitstill.jpg");
+  background-size:cover;
+}
+
+
+
+
+.leftbox-bottom{
+
+  width:100%;
+  height:50vh;
+  background-color: blue;
+}
+
+.leftbox-bottom-gif{
+
+  background: url("../assets/watermovement.gif");
+  background-size:cover;
+}
+
+.leftbox-bottom-still{
+  background: url("../assets/water.jpg");
+  background-size:cover;
+}
+
+.rightbox{
+
+  width: 60%;
+  height:100%;
+  float: right;
+  background-color: pink;
+
+}
+
+.rightbox-still{
+
+background: url("../assets/coralflicker.jpg");
+background-size: cover;
+
+}
+
+.rightbox-gif-two{
+
+  background: url("../assets/waterdropstwo.gif");
+  background-size: cover;
+
+}
+
+.rightbox-gif{
+
+  background: url("../assets/coralflicker.gif");
+  background-size: cover;
+
+}
+
