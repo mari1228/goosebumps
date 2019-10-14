@@ -3,7 +3,15 @@
 $(function() {
 
 
+
+
   function init() {
+
+setTimeout(function(){
+
+  $(".loadingpage").fadeOut(600)
+
+  }, 5000);
 
 clicks=0;
 animationlistleftbox=["greenbackgroundzoom.gif","waterdroplet.gif","waterdropstwo.gif","water.jpg"]
