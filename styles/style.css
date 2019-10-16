@@ -25,7 +25,7 @@ img {
 
   background-image: url("../assets/loadingpagetest.gif");
   background-size:cover;
-  background
+
 
 }
 .page{
@@ -72,13 +72,15 @@ img {
   bottom: 0;
   left: 0;
   width: 100%;
+
   pointer-events: none;
 }
 
 .character-one{
-  width: 50%;
-  height: 80vh;
+  width: 80%;
+  height: 115vh;
   margin: 0 auto;
+  text-align: center;
 }
 
 .leftbox-top-gif{
@@ -93,7 +95,6 @@ img {
 
 
 
-
 .leftbox-bottom{
 
   width:100%;
@@ -103,7 +104,7 @@ img {
 
 .leftbox-bottom-gif{
 
-  background: url("../assets/watermovement.gif");
+  background: url("../assets/lines.gif");
   background-size:cover;
 }
 
@@ -123,8 +124,8 @@ img {
 
 .rightbox-still{
 
-background: url("../assets/coralflicker.jpg");
-background-size: cover;
+ background: url("../assets/coralflicker.jpg");
+ background-size: cover;
 
 }
 
