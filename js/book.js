@@ -14,7 +14,7 @@ setTimeout(function(){
   }, 5000);
 
 clicks=0;
-animationlistleftbox=["greenbackgroundzoom.gif","waterdroplet.gif","waterdropstwo.gif","water.jpg"]
+animationlistleftbox=["greenbackgroundzoom.gif","waterfinal.gif","lines.gif","coralflicker.gif"]
     // Toggle bg colour on and off
     $('.leftbox-top').on('click', function (e) {
       e.preventDefault();
@@ -27,6 +27,9 @@ animationlistleftbox=["greenbackgroundzoom.gif","waterdroplet.gif","waterdropstw
       if(clicks>animationlistleftbox.length-1){
         clicks=0
       }
+
+
+
 
 
 // copy and paste - change clicks 1 change name clicks 1 etc on to next box - change name animation rightbox change all instances/tags and then change the 'leftbox'to right box or whatever.
