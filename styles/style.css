@@ -3,7 +3,6 @@
   [property]: [value];
 }
 
-/* Global Styles go here */
 body {
   background: white;
   color: black;
@@ -27,64 +26,51 @@ img {
   background-blend-mode: screen;
 }
 
-.insta{
+.insta {
   font-size: 3em;
   text-align: center;
   margin-top: 40px;
   display:none;
 }
-.page{
-
+.page {
   width: 100%;
   height: 100vh;
   background-color: green;
   position: relative;
   overflow: hidden;
-
-
 }
 
 .background {
-
   width: 100%;
   height: 100vh;
   position: relative;
   overflow: hidden;
 }
 
-
-.leftbox{
-
+.leftbox {
   width: 40%;
   height: 100%;
   float: left;
   background-color: white;
-
-
-
 }
 
-
-
-.leftbox-top{
-
+.leftbox-top {
   width:100%;
   height:50vh;
   background-color: yellow;
   background-size:cover!important;
-  background: url("../assets/fruitblack-red.gif");
+  background: url("../assets/waterdroplet.gif");
 }
 
-.character-container{
+.character-container {
   position: absolute;
   bottom: 0;
   left: 0;
   width: 100%;
-
   pointer-events: none;
 }
 
-.character-one{
+.character-one {
   width: 80%;
   height: 100vh;
   margin: 0 auto;
@@ -94,65 +80,51 @@ img {
   justify-content: center;
 }
 
-.leftbox-top-gif{
+.leftbox-top-gif {
   background: url("../assets/fruitblack-red.gif");
   background-size:cover;
 }
 
-.leftbox-top-still{
+.leftbox-top-still {
   background: url("../assets/grapefruitstill.jpg");
   background-size:cover;
 }
 
-
-
-.leftbox-bottom{
-
+.leftbox-bottom {
   width:100%;
   height:50vh;
   background-color: blue;
 }
 
-.leftbox-bottom-gif{
-
+.leftbox-bottom-gif {
   background: url("../assets/lines.gif");
   background-size:cover;
 }
 
-.leftbox-bottom-still{
+.leftbox-bottom-still {
   background: url("../assets/water.jpg");
   background-size:cover;
 }
 
-.rightbox{
-
+.rightbox {
   width: 60%;
   height:100%;
   float: right;
-
-
-
 }
 
-.rightbox-still{
-
+.rightbox-still {
  background: url("../assets/coralflicker.jpg");
  background-size: cover;
  background-repeat: no-repeat;
-
 }
 
 .rightbox-gif-two{
-
   background: url("../assets/waterdropstwo.gif");
   background-size: cover;
-
 }
 
 .rightbox-gif{
-
   background: url("../assets/coralflicker.gif");
   background-size: cover;
-
 }
 
