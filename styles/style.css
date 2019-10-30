@@ -4,7 +4,6 @@
 }
 
 body {
-  background: white;
   color: black;
   margin: 0;
   padding: 0;
@@ -35,7 +34,6 @@ img {
 .page {
   width: 100%;
   height: 100vh;
-  background-color: green;
   position: relative;
   overflow: hidden;
 }
@@ -51,15 +49,12 @@ img {
   width: 40%;
   height: 100%;
   float: left;
-  background-color: white;
 }
 
 .leftbox-top {
   width:100%;
   height:50vh;
-  background-color: yellow;
   background-size:cover!important;
-  background: url("../assets/waterdroplet.gif");
 }
 
 .character-container {
@@ -81,28 +76,16 @@ img {
 }
 
 .leftbox-top-gif {
-  background: url("../assets/fruitblack-red.gif");
-  background-size:cover;
-}
-
-.leftbox-top-still {
-  background: url("../assets/grapefruitstill.jpg");
   background-size:cover;
 }
 
 .leftbox-bottom {
   width:100%;
   height:50vh;
-  background-color: blue;
 }
 
 .leftbox-bottom-gif {
   background: url("../assets/lines.gif");
-  background-size:cover;
-}
-
-.leftbox-bottom-still {
-  background: url("../assets/water.jpg");
   background-size:cover;
 }
 
