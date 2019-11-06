@@ -23,13 +23,17 @@ img {
   background-size:cover;
   background-position: center;
   background-blend-mode: screen;
+
 }
 
 .insta {
-  font-size: 3em;
-  text-align: center;
-  margin-top: 40px;
-  display:none;
+background-size: cover;
+background-position: center;
+
+width:40%;
+height: 40%;
+margin-left:30%
+
 }
 .page {
   width: 100%;

@@ -85,7 +85,7 @@ $(function() {
 
         $(".loadingpage").css('background-color',"transparent");
 
-        $(".loadingpage").html('<div class="insta">MY TAG</div>');
+        $(".loadingpage").html('<div class="insta"> <img src="./assets/theend.png"></div>');
 
         $(".loadingpage").fadeIn();
 
